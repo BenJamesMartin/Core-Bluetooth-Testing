@@ -16,6 +16,7 @@
 		B546C0EA1A8F485A00BA269E /* Bluetooth_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B546C0E91A8F485A00BA269E /* Bluetooth_TestTests.m */; };
 		B546C0F51A8F487500BA269E /* PeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B546C0F41A8F487500BA269E /* PeripheralViewController.m */; };
 		B546C0F71A8F492400BA269E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B546C0F61A8F492400BA269E /* CoreBluetooth.framework */; };
+		B55953041AB1127500FB5CEE /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55953031AB1127500FB5CEE /* InitialViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		B546C0F31A8F487500BA269E /* PeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralViewController.h; sourceTree = "<group>"; };
 		B546C0F41A8F487500BA269E /* PeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralViewController.m; sourceTree = "<group>"; };
 		B546C0F61A8F492400BA269E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B55953021AB1127500FB5CEE /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		B55953031AB1127500FB5CEE /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 			children = (
 				B546C0D11A8F485A00BA269E /* AppDelegate.h */,
 				B546C0D21A8F485A00BA269E /* AppDelegate.m */,
+				B55953021AB1127500FB5CEE /* InitialViewController.h */,
+				B55953031AB1127500FB5CEE /* InitialViewController.m */,
 				B546C0D41A8F485A00BA269E /* CentralViewController.h */,
 				B546C0D51A8F485A00BA269E /* CentralViewController.m */,
 				B546C0F31A8F487500BA269E /* PeripheralViewController.h */,
@@ -228,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B55953041AB1127500FB5CEE /* InitialViewController.m in Sources */,
 				B546C0F51A8F487500BA269E /* PeripheralViewController.m in Sources */,
 				B546C0D61A8F485A00BA269E /* CentralViewController.m in Sources */,
 				B546C0D31A8F485A00BA269E /* AppDelegate.m in Sources */,
