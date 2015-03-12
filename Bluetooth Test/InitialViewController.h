@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreBluetooth/CoreBluetooth.h>
 
-@interface InitialViewController : UIViewController
+@interface InitialViewController : UIViewController <CBPeripheralManagerDelegate>
 
 @property (strong, nonatomic) IBOutlet UILabel *dataLabel;
+
+@property (strong, nonatomic) CBPeripheralManager *peripheralManager;
+@property (strong, nonatomic) CBMutableCharacteristic *characteristic;
 
 @end
