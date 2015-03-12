@@ -52,13 +52,16 @@
 //A central unsubscribed from one of our services characteristics but did not disconnect
 - (void)peripheralManager:(CBPeripheralManager *)peripheral central:(CBCentral *)central didUnsubscribeFromCharacteristic:(CBCharacteristic *)characteristic
 {
-    
 }
 
 //Send next chunk of data to subscribed central
 - (void)peripheralManagerIsReadyToUpdateSubscribers:(CBPeripheralManager *)peripheral
 {
     
+}
+
+- (IBAction)becomeCentralAndSendData:(id)sender {
+    NSLog(@"becoming central %@", self.textField.text);
 }
 
 - (void)didReceiveMemoryWarning {

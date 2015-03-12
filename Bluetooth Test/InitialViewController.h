@@ -13,6 +13,8 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *dataLabel;
 
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+
 @property (strong, nonatomic) CBPeripheralManager *peripheralManager;
 @property (strong, nonatomic) CBMutableCharacteristic *characteristic;
 
