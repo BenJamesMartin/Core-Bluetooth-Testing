@@ -60,7 +60,9 @@
     
 }
 
-- (IBAction)becomeCentralAndSendData:(id)sender {
+- (IBAction)becomeCentralAndSendData:(id)sender
+{
+    // Make this become central by navigating to a central view controller that has a property to contain the text you want.
     NSLog(@"becoming central %@", self.textField.text);
 }
 

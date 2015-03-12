@@ -14,7 +14,6 @@
 		B546C0DB1A8F485A00BA269E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B546C0DA1A8F485A00BA269E /* Images.xcassets */; };
 		B546C0DE1A8F485A00BA269E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B546C0DC1A8F485A00BA269E /* LaunchScreen.xib */; };
 		B546C0EA1A8F485A00BA269E /* Bluetooth_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B546C0E91A8F485A00BA269E /* Bluetooth_TestTests.m */; };
-		B546C0F51A8F487500BA269E /* PeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B546C0F41A8F487500BA269E /* PeripheralViewController.m */; };
 		B546C0F71A8F492400BA269E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B546C0F61A8F492400BA269E /* CoreBluetooth.framework */; };
 		B55953041AB1127500FB5CEE /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55953031AB1127500FB5CEE /* InitialViewController.m */; };
 /* End PBXBuildFile section */
@@ -43,8 +42,6 @@
 		B546C0E31A8F485A00BA269E /* Bluetooth TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluetooth TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B546C0E81A8F485A00BA269E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B546C0E91A8F485A00BA269E /* Bluetooth_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bluetooth_TestTests.m; sourceTree = "<group>"; };
-		B546C0F31A8F487500BA269E /* PeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralViewController.h; sourceTree = "<group>"; };
-		B546C0F41A8F487500BA269E /* PeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralViewController.m; sourceTree = "<group>"; };
 		B546C0F61A8F492400BA269E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		B55953021AB1127500FB5CEE /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
 		B55953031AB1127500FB5CEE /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
@@ -97,8 +94,6 @@
 				B55953031AB1127500FB5CEE /* InitialViewController.m */,
 				B546C0D41A8F485A00BA269E /* CentralViewController.h */,
 				B546C0D51A8F485A00BA269E /* CentralViewController.m */,
-				B546C0F31A8F487500BA269E /* PeripheralViewController.h */,
-				B546C0F41A8F487500BA269E /* PeripheralViewController.m */,
 				B546C0D71A8F485A00BA269E /* Main.storyboard */,
 				B546C0DA1A8F485A00BA269E /* Images.xcassets */,
 				B546C0DC1A8F485A00BA269E /* LaunchScreen.xib */,
@@ -234,7 +229,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55953041AB1127500FB5CEE /* InitialViewController.m in Sources */,
-				B546C0F51A8F487500BA269E /* PeripheralViewController.m in Sources */,
 				B546C0D61A8F485A00BA269E /* CentralViewController.m in Sources */,
 				B546C0D31A8F485A00BA269E /* AppDelegate.m in Sources */,
 				B546C0D01A8F485A00BA269E /* main.m in Sources */,
